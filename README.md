@@ -1,6 +1,6 @@
 # Varanasi Tourism App
 
-A simple React app showcasing famous tourist places in Varanasi, India.  
+A React app showcasing famous tourist places in Varanasi, India.  
 Users can browse places and add them to a personal "Tour Plan".
 
 ## Features
@@ -18,4 +18,5 @@ Users can browse places and add them to a personal "Tour Plan".
 - CSS
 
   ## Screenshots
-
+![image 1]
+![image 2]
