@@ -18,5 +18,6 @@ Users can browse places and add them to a personal "Tour Plan".
 - CSS
 
   ## Screenshots
-![image 1.png]
-![image 2.png]
+![image 1](image 1.png)
+
+![image 2.png](image 2.png)
