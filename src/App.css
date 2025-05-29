@@ -1,38 +1,126 @@
-.App {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffbe7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
   text-align: center;
+  color: #7b3f00;
+  margin-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #5c2e00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
+p {
+  font-size: 1rem;
+  max-width: 600px;
+}
+.container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fffbe7;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  text-align: center;
+  color: #b66a00;
+  margin-bottom: 40px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #5c2e00;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #444;
+}
+.plan-btn {
+  background-color: #fcbf49;
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.plan-btn:hover {
+  background-color: #f77f00;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.tour-plan {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff0d2;
+  border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tour-plan h2 {
+  color: #b66a00;
 }
+
+.tour-plan ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tour-plan li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.tour-plan li button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
